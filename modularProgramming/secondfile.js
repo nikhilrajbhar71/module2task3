@@ -1,10 +1,3 @@
-// math.js
-function add(a, b) {
-  return a + b;
-}
-
-function multiply(a, b) {
-  return a * b;
-}
-
-module.exports = { add, multiply };
+export const greet = () => {
+  console.log("Hello, World!");
+};
